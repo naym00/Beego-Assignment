@@ -120,6 +120,7 @@
         let category = $('#category').val();
         let breed = $('#breed').val();
         let per_page = $('#per-page').val();
+
         $.ajax({
           type: 'GET',
           url: 'http://localhost:8080/internalprocess',
