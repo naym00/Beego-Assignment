@@ -97,7 +97,6 @@
           "per_page": per_page
         },
         success: function(response) {
-          console.log("More Button Clicked!!")
           let data = response;
           let html_data = "";
           $.each(data, function (key, value) {
@@ -132,7 +131,6 @@
             "per_page": per_page
           },
           success: function(response) {
-            console.log("More Button Clicked!!")
             let data = response;
             let html_data = "";
             $.each(data, function (key, value) {
