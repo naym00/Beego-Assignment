@@ -1,17 +1,10 @@
-# Beego-Assignment
-
-<h1 align="center">CATs API - Golang(Beego)</h1>
+<h1 align="center">Beego-Assignment - Golang(Beego)</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 </p>
-
-## Features
-
-- You can search Cats images
-- You can search Cats images by its Breed
-- You can search Cats images by its Category such as Boxes,hats,sunglasses etc
-- You can search Cats images by Image type such Jpg,Png,gif
-- You can change the number of images per page. By defult it shows 9 images
+You can get images of cat from this project. There are 4 dropdown buttons, you can get images of cat by selecting or combination of those buttons.
+By default it will display random images and fields will be filled like this Order: "Random", Type: "All", Category: "None", Breed: "None".
+You can get more images by clicking more+ button.
 
 ## Languages used
 - Golang
@@ -129,7 +122,7 @@ go mod tidy
 - First of all, clone the project by running the following command
 
 ```
-git clone https://github.com/Saklain-Tonmoy/Beego_Assignment.git
+git clone https://github.com/naym00/Beego-Assignment.git
 ```
 - Then, open the cloned folder using `VS Code` and run the following command
 
@@ -144,8 +137,8 @@ http://localhost:8080/
 
 ## Feedback
 
-If you have any feedback, please reach out to me at saklain@w3engineers.com
+If you have any feedback, please reach out to me at nymur@w3engineers.com
 
 ## 🚀 About Me
 
-My name is Md. Golam Saklain Hossain and I'm a Softwere Engineer ...
+My name is Md. Nymur Rahman and I'm an Intern Softwere Engineer of W3engineers Ltd....
