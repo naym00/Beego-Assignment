@@ -67,7 +67,7 @@
     <div class="row">
       <div class="col-8">
         <label class="form-label" style="font-size: 180%; opacity: 0.6;">Per Page</label>
-        <select id="per-page" class="form-select select-style" style="width: 7%; font-size: 160%; font-weight: bold;">
+        <select id="per-page" class="form-select select-style" style="width: 10%; font-size: 160%; font-weight: bold;">
           <option value="9" selected>9</option>
           <option value="18">18</option>
           <option value="80">80</option>
