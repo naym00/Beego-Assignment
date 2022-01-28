@@ -108,7 +108,7 @@ bee run
 
 - [x] Finally, open your browser and enter the following URL to check it out
 ```
-http://localhost:8080/
+http://localhost:8080
 ```
 
 ## Feedback
