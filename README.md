@@ -80,6 +80,11 @@ go version
 go get -u github.com/beego/beego/v2
 go get -u github.com/beego/bee/v2
 ```
+> Note: Sometimes while installing beego this error can occur cgo: exec gcc: exec: "gcc": executable file not found in $PATH This error occurs if the gcc C compiler does not exist in the system. That's why we need to install C Compiler by following command and then run the previous commands.
+```
+sudo apt-get install build-essential
+```
+
 
 #### step 2
 - [x] Create Beego MVC project by this command
