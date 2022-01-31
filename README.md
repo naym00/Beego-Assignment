@@ -22,6 +22,48 @@ To get more images, you have to click More+ button.
 - [x] Install Beego
 
 ## How to Install Golang
+////
+step 2
+
+    Then use curl to retrieve/download the tarball.
+
+curl -OL https://golang.org/dl/go1.16.7.linux-amd64.tar.gz
+
+        Note:: If curl is not installed in the system, please install it by the command below
+
+sudo apt install curl
+
+step 3
+
+    Next, use tar to extract the tarball. This command includes the -C flag which instructs tar to change to the given directory before performing any other operations
+
+sudo tar -C /usr/local -xvf go1.16.7.linux-amd64.tar.gz
+
+step 5
+
+    In this step, you will set paths in your environment. First of all, type the command below and press ENTER
+
+sudo nano ~/.profile
+
+    Then, add the following informations to the end of your profile:
+
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/home/yourpcname/go/bin
+export GOPATH="/home/yourpcname/go/"
+export GOBIN="/home/yourpcname/go/bin"
+
+    After you’ve added this information to your profile, save and close the file by pressing CTRL+X, then Y, and then ENTER.
+
+step 6
+
+    After that type the follwing code and press ENTER
+
+source ~/.profile
+
+    Finally, check the go version using following command
+
+ go version
+////
 
 #### step 1
 - [x] Open your terminal and run the following command to make sure that you’re in the root directory.
@@ -33,6 +75,10 @@ cd ~
 - [x] Then use curl to retrieve the tarball.
 ```
 curl -OL https://golang.org/dl/go1.16.7.linux-amd64.tar.gz
+```
+- Note:: If curl is not installed in the system, please install it by the command below
+```
+sudo apt install curl
 ```
 
 #### step 3
