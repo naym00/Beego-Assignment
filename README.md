@@ -75,7 +75,7 @@ export GOBIN="/home/yourpcname/go/bin"
 - [x] Download and install beego By this command
 ```
 go get -u github.com/beego/beego/v2
-go get -u github.com/beego/beego/v2
+go get -u github.com/beego/bee/v2
 ```
 
 #### step 2
