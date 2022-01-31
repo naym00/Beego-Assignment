@@ -40,24 +40,18 @@ sudo apt install curl
 ```
 
 #### step 3
-- [x] To verify the integrity of the file you downloaded, run the `sha256sum` command and pass it to the filename as an argument
+- [x] In this step, you will set paths in your environment. First of all, type the command below and press ENTER
 ```
-sha256sum go1.16.7.linux-amd64.tar.gz
+sudo tar -C /usr/local -xvf go1.16.7.linux-amd64.tar.gz
 ```
 
 #### step 4
 - [x] Next, use `tar` to extract the tarball. This command includes the `-C` flag which instructs tar to change to the given directory before performing any other operations
 ```
-sudo tar -C /usr/local -xvf go1.16.7.linux-amd64.tar.gz
-```
-
-- [x] In this step, you will set paths in your environment.
-```
 sudo nano ~/.profile
 ```
 
-#### step 5
-- [x] Then, add the following information to the end of your file:
+- [x] Then, add the following informations to the end of your profile:
 ```
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/home/yourpcname/go/bin
@@ -65,12 +59,17 @@ export GOPATH="/home/yourpcname/go/"
 export GOBIN="/home/yourpcname/go/bin"
 ```
 
-- [x] After you’ve added this information to your profile, save and close the file. If you used nano, do so by pressing CTRL+X, then Y, and then ENTER.
+- [x] After you’ve added this information to your profile, save and close the file by pressing CTRL+X, then Y, and then ENTER.
 
-#### step 6
-- [x] After, check if you can execute go commands by running go version:
+#### step 5
+- [x] After that type the follwing code and press ENTER
 ```
- go version
+source ~/.profile
+```
+
+- [x] Finally, check the go version using following command
+```
+go version
 ```
 
 ## How to Install Beego and Create Project
